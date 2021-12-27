@@ -1,15 +1,14 @@
 import os
+import config_coin_mpv
 
 from binance.client import Client
 
 # init
-api_key = ''
-api_secret = ''
+api_key = config_coin_mpv.api_key
+api_secret = config_coin_mpv.api_secret
 
 client = Client(api_key, api_secret)
 
-print('<b>BINANCE</b><br/>')
-print('<br/>')
 print('<b>CARTERA</b><br/>')
 print('<br/>')
 wallet_sand=client.get_asset_balance(asset='SAND')
