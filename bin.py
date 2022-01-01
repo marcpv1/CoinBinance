@@ -28,7 +28,7 @@ total_avax=float(avax_price['price'])*float(wallet_avax['free'])
 total_luna=float(luna_price['price'])*float(wallet_luna['free'])
 total_egld=float(egld_price['price'])*float(wallet_egld['free'])
 
-print('<a href="https://coinmarketcap.com/es/currencies/the-sandbox/" target="_blank">')
+print('<a href="https://coinmarketcap.com/es/currencies/elrond-egld/" target="_blank">')
 print('<img src=\"https://s2.coinmarketcap.com/static/img/coins/64x64/6892.png\" width=\"40\" height=\"40\"></a>')
 print('<b>Elrond eGold</b><br/>')
 print('(' + str(round(float(egld_price['price']),2)) + ' $)<br/>')
